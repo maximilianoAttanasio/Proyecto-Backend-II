@@ -13,7 +13,7 @@ Crear un archivo `.env` en la raíz del proyecto con:
 ```
 PORT=8080
 MONGO_URL=mongodb://127.0.0.1:27017/ecommerce
-JWT_SECRET=tu_clave_secreta
+JWT_SECRET=clave
 ```
 
 ## Ejecución
@@ -67,7 +67,7 @@ POST /api/sessions/logout
 
 ## Pruebas
 
-Se recomienda utilizar Postman¿.
+Se recomienda utilizar Postman.
 
 Flujo sugerido:
 1. Registrar usuario
